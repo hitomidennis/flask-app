@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: k8s-quiz-mainlb-bfae69efa3-1458856836.us-west-2.elb.amazonaws.com
+    - host: k8s-stations-mainlb-9c0ae4c740-207310183.us-west-2.elb.amazonaws.com
       http:
         paths:
           - path: /
